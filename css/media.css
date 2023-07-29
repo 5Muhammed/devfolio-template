@@ -1,0 +1,136 @@
+/***** About *****/
+@media (max-width: 992px){
+    #about img{
+        width: 90%;
+    }
+
+}
+@media (max-width: 576px) { 
+    #about{
+        padding: 0px !important;
+    }
+    #about .container{
+        width: 100% !important;
+        font-size: 12px;
+        margin-inline: 0 !important;
+        padding-inline: 5px !important;
+        
+    }
+    #about img{
+        width: 100%;
+        padding-bottom: 10px !important;
+    }
+
+}
+
+/***** End About *****/
+
+/***** Services *****/
+@media (max-width: 768px){
+    .services .container .cards> *{
+        width: 100%;
+    }
+
+}
+/***** End Services *****/
+
+
+/***** Achievements *****/
+@media (max-width: 576px){
+    .achievements .container{
+
+        flex-wrap: wrap;
+    }
+
+    .achievements .container > *{
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+}
+/***** End Achievements *****/
+
+/***** Work *****/
+@media (max-width: 768px){
+    .work .card{
+        width: 100%;
+    }
+}
+
+/***** End Work *****/
+
+/***** team *****/
+@media (max-width: 576px){
+    .team img{
+        width: 40% !important;
+        height: 40% !important;
+    }
+    .team .carousel-caption p{
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-inline: 10px;
+    }
+
+}
+
+/***** End team *****/
+/***** Blog *****/
+@media (max-width: 992px){
+    .blog .bottom-list{
+        flex-direction: row !important;
+        gap: 5px !important;
+    }
+    .blog .bottom-list >*{
+        width: 100% !important;
+    }
+    .blog .bottom-list ul{
+        padding-left: 8px;
+    }
+    .blog .bottom-list .list-group-item{
+        align-self: flex-end !important;
+        text-align: right;
+    }
+}
+
+@media (max-width: 768px){
+    .blog .blog-cards{
+        flex-wrap: wrap ;
+    }
+    .blog  .card{
+        width: 100% !important;
+    }
+}
+/***** End Blog *****/
+
+
+
+/***** Contact *****/
+@media (max-width: 992px){
+    #contact .right-part .social li a{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media (max-width: 768px){
+    #contact .right-part,
+    #contact .left-part{
+        width: 100% !important;
+    }
+    #contact .right-part .social li a{
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+@media (max-width: 576px){
+    #contact .right-part .social li a{
+        width: 35px;
+        height: 35px;
+    }
+}
+/***** End Contact *****/
+.hover-icon:hover{
+    color: white;
+}
